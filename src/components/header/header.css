@@ -1,0 +1,59 @@
+.custom-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.custom-navbar a {
+    width: auto;
+    height: auto;
+}
+
+.custom-navbar .custom-navbar-logo {
+    height: 68px;
+    margin-left: 0;
+}
+
+.custom-navbar .custom-acceuiletapropos {
+    display: flex;
+    gap: 80px;
+    font-size: 24px;
+}
+
+.custom-navbar .custom-acceuiletapropos a {
+    color: #ff6060;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+}
+
+.custom-navbar .custom-acceuiletapropos a:hover {
+    text-decoration: underline;
+}
+
+.custom-navbar .custom-acceuiletapropos a.active,
+.custom-navbar .custom-acceuiletapropos a:active {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+    .custom-navbar a {
+        width: 120px;
+    }
+
+    .custom-navbar .custom-navbar-logo {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .custom-navbar .custom-navbar-logo img {
+        width: 120px;
+    }
+
+    .custom-navbar .custom-acceuiletapropos {
+        gap: 25px;
+        font-size: 16px;
+    }
+}

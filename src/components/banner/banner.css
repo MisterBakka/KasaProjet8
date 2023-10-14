@@ -1,0 +1,40 @@
+.custom-banner {
+    margin: 0 5%;
+    margin-bottom: 32px;
+}
+
+.custom-banner img {
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+    filter: brightness(0.6);
+    height: 223px;
+}
+
+.custom-banner-title {
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 48px;
+    font-family: 'Montserrat';
+    width: 90%;
+    cursor: default;
+}
+
+@media screen and (max-width: 1024px) {
+    .custom-banner img {
+        object-position: 50% 30%;
+    }
+
+    .image-height-1 img {
+        height: 111px;
+    }
+    
+    .custom-banner-title {
+        top: 110px;
+        left: 10%;
+        font-size: 24px;
+       
+    }}

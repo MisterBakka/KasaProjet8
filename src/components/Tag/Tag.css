@@ -1,0 +1,31 @@
+.custom-tag-content {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .custom-tag-content span {
+    display: flex;
+    justify-content: center;
+    background-color: #ff6060;
+    color: #fff;
+    width: 110px;
+    min-height: 25px;
+    height: auto;
+    border-radius: 6px;
+    padding: 0 10px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .custom-tag-content {
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+  
+    .custom-tag-content span {
+      font-size: 10px;
+      width: 75px;
+    }
+  }
+  

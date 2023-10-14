@@ -1,0 +1,23 @@
+.stars-container {
+    padding: 0;
+  }
+  
+  .stars-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .star img {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .star img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  

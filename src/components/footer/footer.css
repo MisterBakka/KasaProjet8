@@ -1,0 +1,25 @@
+.custom-footer {
+    background-color: black;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom-footer figure {
+    margin: 0 auto;
+}
+
+.custom-footer .custom-copyright {
+    color: #fff;
+    margin: 20px auto 0 auto;
+    cursor: default;
+}
+
+@media screen and (max-width: 1024px) {
+    .custom-footer .custom-copyright {
+        width: 123px;
+        font-size: 12px;
+        text-align: center;
+    }
+}
