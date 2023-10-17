@@ -1,7 +1,7 @@
 import React from 'react';
 import CustomBanner from '../../components/banner/banner';
 import image1 from '../../assets/banner.png';
-import CustomCard from '../../components/Logement/card/card';  // Vous utilisez déjà CustomCard ici
+import CustomCard from '../../components/Logement/card/card';  
 import locationDatas from '../../Data/logements.json';
 
 function Home() {

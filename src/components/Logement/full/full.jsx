@@ -30,7 +30,6 @@ function CustomFull({ locationDatas, id }) {
             </div>
             <div className='stars-align'>
             <CustomStar rating={customLogement.rating} />
-
             </div>
           </div>
         </section>
