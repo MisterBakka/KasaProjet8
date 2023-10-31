@@ -12,8 +12,7 @@ function CustomFull({ locationDatas, id }) {
     console.log(locationDatas)
     const customLogement = locationDatas.find((location) => location.id === id);
   
- 
-  
+
     return (
       <main>
         <CustomSlide dataLocation={customLogement} />

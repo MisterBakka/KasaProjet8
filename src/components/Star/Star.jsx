@@ -10,7 +10,6 @@ const CustomStar = ({ rating }) => {
     console.log(`i: ${i}, rating: ${rating}`);
     stars.push(i <= rating ? Star1 : Star2);
   }
-
   return (
     <ul className='stars-container'>
       {stars.map((star, index) => (

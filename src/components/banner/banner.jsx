@@ -4,8 +4,6 @@ import '../banner/banner.css'
 
 
 function CustomBanner({ imageSrc, showText, className }) {
-
-
   return (
     <section className={`custom-banner ${className}`}>
       <img

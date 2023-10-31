@@ -18,7 +18,6 @@ const CustomSlide = ({ dataLocation }) => {
     } else {
       newIndex = currentIndex === nbPictures - 1 ? 0 : currentIndex + 1;
     }
-
     setCurrentIndex(newIndex);
   };
 

@@ -3,7 +3,7 @@ import expandArrowImg from '../../assets/expand_down.png';
 import expandUpImg from '../../assets/expand_up.png';
 import './Dropdown.css'; 
 
-function CustomDropdown({ titre, description, customClassName }) {
+function CustomDropdown({ titre, description, ClassName }) {
   const [isActive, setIsActive] = useState(false);
 
   const handleDropdownClick = () => {
@@ -16,7 +16,7 @@ function CustomDropdown({ titre, description, customClassName }) {
         <label>{titre}</label>
         <img src={isActive ? expandUpImg : expandArrowImg} alt="Icône d'expansion" />
       </div>
-      {isActive && <div className={`description-dropdown ${customClassName}`}>{description}</div>}
+      {isActive && <div className={`description-dropdown ${ClassName}`}>{description}</div>}
     </div>
   );
 }
